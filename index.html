@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/main.js" defer></script>
+    <style></style>
+  </head>
+  <body>
+    <!--
+        procedure:
+        1. erstelle einen button fur Tsshirt
+        ------1.function fur tishert
+        ------2. fetch nutzen
+        ------3. end result muss tshirt
+
+    -->
+    <div id="logo">
+      <button id="main"><img src="img/logo.png" /></button>
+    </div>
+    <div id="korb">
+      <button onclick="zeigeWarenkorb()">
+        <img
+          class="img_shoping_card"
+          src="img/shopping-cart.png"
+          width="50px"
+        />
+      </button>
+    </div>
+    
+    <div id="buttons">
+      <button id="shirt"><img src="img/blue_t.png" width="50px" /></button>
+      <button id="skirt"><img src="img/blue_s.png" width="50px"  /></button>
+      <button id="pants"><img src="img/blue_p.png"width="50px" /></button>
+      <button id="blue">blue</button>
+      <button id="yellow">yellow</button>
+      <button id="pink">pink</button>
+    </div>
+    <div id="show"></div>
+    <div id="waren"></div>
+    <p id="price"></p>
+  </body>
+</html>
